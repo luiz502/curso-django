@@ -6,6 +6,6 @@ from django.http import HttpResponse
 #Usando o argumento context, é possível enviar variáveis para a template especificada.
 
 def home(request):
-    return render(request, 'recipes/home.html', context={
+    return render(request, 'recipes/pages/home.html', context={
         'name':'Luiz Fernando Sementille',
     }) 
